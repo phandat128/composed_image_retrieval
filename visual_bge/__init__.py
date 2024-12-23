@@ -1,1 +1,1 @@
-from .modeling import Visualized_BGE
+from .visual_bge import Visualized_BGE

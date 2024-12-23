@@ -9,7 +9,7 @@ from PIL import Image
 import json
 import torch
 import torch.distributed
-from arguments import DataArguments
+from .arguments import DataArguments
 
 import math
 import numpy as np
