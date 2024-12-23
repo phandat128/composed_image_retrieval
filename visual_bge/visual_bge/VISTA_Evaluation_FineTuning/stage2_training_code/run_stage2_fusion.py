@@ -18,12 +18,12 @@ from transformers import (
 )
 import sys
 print(os.getcwd())
-from arguments import ModelArguments, DataArguments, \
+from .arguments import ModelArguments, DataArguments, \
     RetrieverTrainingArguments as TrainingArguments
-from data_stage2_fusion import Multimodal_Dataset, Multimodal_Collator
-from modeling_stage2_fusion import BGE_EVAToken
+from .data_stage2_fusion import Multimodal_Dataset, Multimodal_Collator
+from .modeling_stage2_fusion import BGE_EVAToken
 
-from trainer import BiTrainer
+from .trainer import BiTrainer
 import torch
 from torch.utils.tensorboard import SummaryWriter
 

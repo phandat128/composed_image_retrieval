@@ -10,7 +10,7 @@ from transformers.file_utils import ModelOutput
 import os
 
 import sys
-sys.path.append("./EVA-CLIP/rei")
+sys.path.append("./visual_bge")
 from eva_clip import create_eva_vision_and_transforms, get_tokenizer
 
 from torch.utils.tensorboard import SummaryWriter
